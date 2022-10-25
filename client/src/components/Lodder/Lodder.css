@@ -1,0 +1,114 @@
+@keyframes ldio-6ry272euqec {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.lodder div {
+  box-sizing: border-box !important;
+}
+.lodder > div {
+  position: absolute;
+  width: 154.07px;
+  height: 154.07px;
+  top: 31.465px;
+  left: 31.465px;
+  border-radius: 50%;
+  border: 19.53px solid #000;
+  border-color: #00fff9 transparent #00fff9 transparent;
+  animation: ldio-6ry272euqec 0.641025641025641s linear infinite;
+}
+
+.lodder > div:nth-child(2),
+.lodder > div:nth-child(4) {
+  width: 110.67px;
+  height: 110.67px;
+  top: 53.165px;
+  left: 53.165px;
+  animation: ldio-6ry272euqec 0.641025641025641s linear infinite reverse;
+}
+.lodder > div:nth-child(2) {
+  border-color: transparent #5cff00 transparent #5cff00;
+}
+.lodder > div:nth-child(3) {
+  border-color: transparent;
+}
+.lodder > div:nth-child(3) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.lodder > div:nth-child(3) div:before,
+.lodder > div:nth-child(3) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 19.53px;
+  height: 19.53px;
+  top: -19.53px;
+  left: 47.739999999999995px;
+  background: #00fff9;
+  border-radius: 50%;
+  box-shadow: 0 134.54px 0 0 #00fff9;
+}
+.lodder > div:nth-child(3) div:after {
+  left: -19.53px;
+  top: 47.739999999999995px;
+  box-shadow: 134.54px 0 0 0 #00fff9;
+}
+
+.lodder > div:nth-child(4) {
+  border-color: transparent;
+}
+.lodder > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.lodder > div:nth-child(4) div:before,
+.lodder > div:nth-child(4) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 19.53px;
+  height: 19.53px;
+  top: -19.53px;
+  left: 26.04px;
+  background: #5cff00;
+  border-radius: 50%;
+  box-shadow: 0 91.14px 0 0 #5cff00;
+}
+.lodder > div:nth-child(4) div:after {
+  left: -19.53px;
+  top: 26.04px;
+  box-shadow: 91.14px 0 0 0 #5cff00;
+}
+.Lodderbox {
+  width: 217px;
+  height: 217px;
+  display: inline-block;
+  overflow: hidden;
+  background: #f1f2f300;
+}
+.lodder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.lodder div {
+  box-sizing: content-box;
+}
+
+.flow {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30313159;
+}
